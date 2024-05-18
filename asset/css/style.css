@@ -41,16 +41,14 @@ body {
 }
 
 .hero-section {
-  background-image: url("/asset/img/background3.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
   width: 100%;
   height: 90vh;
+  position: relative;
+}
+.hero-item {
   position: absolute;
   top: 0;
-}
-
-.hero-item {
+  left: 0;
   display: flex;
   width: 370px;
   height: 330px;
@@ -62,7 +60,6 @@ body {
   margin-left: 220px;
   border-radius: 2px;
 }
-
 .hero {
   display: flex;
   flex-direction: column;
@@ -112,6 +109,7 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  margin-top: 30%;
 }
 
 .sec-heading {
